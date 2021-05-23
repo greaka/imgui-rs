@@ -375,6 +375,8 @@ pub enum StyleVar {
     ButtonTextAlign([f32; 2]),
     /// Alignment of selectable text when selectable is larger than text
     SelectableTextAlign([f32; 2]),
+    /// Padding within a table cell
+    CellPadding([f32; 2]),
 }
 
 #[test]
